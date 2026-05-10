@@ -1,0 +1,9 @@
+# TEARC-Scanner .gitignore
+# 排除未使用的dispatch音频文件 (仅保留scanner/alerts/backup)
+
+audio/dispatch/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+*.log

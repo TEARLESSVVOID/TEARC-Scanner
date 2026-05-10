@@ -1,0 +1,7 @@
+# TEARC-Scanner 核心文件保护
+# client/ 和 html/ 目录下的文件不允许被非所有者修改
+
+client/*.lua  linguist-detectable=true
+html/*.html  linguist-detectable=true
+html/*.css   linguist-detectable=true
+html/*.js    linguist-detectable=true
